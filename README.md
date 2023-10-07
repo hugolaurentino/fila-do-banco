@@ -1,5 +1,3 @@
-# 
-Fila do banco
 <h1 align="center">
   <img alt="Logo" title="#Logo" src="./assets/logo-hugo.png" />
 </h1>
@@ -14,7 +12,7 @@ Fila do banco
 - [x] GIF‘s
 
 ---
-<h1 align='center'>Encontrando o maior</h1>
+<h1 align='center'>Fila do banco</h1>
 
 <p align='center'>Esse é um exemplo de lógica em javascript</p>
 <p align='center'>
@@ -32,14 +30,16 @@ Usando o conceito do forof uma das formas de repetição com if
 <h1 align='center'>
  <img alt='Readme' title='Readme' src='./assets/execucao.gif' />
 </h1>
-const numeros = [3, 4, 1, 8, 11, 7, 5];
+
+const filaDeDentro = ['Victor', 'Hugo', "Jose", "João"];
+const filaDeFora = ["Joana", "Roberta"];
 
 ---
 
 ### Sobre
 
   <p align= 'justify'>
-  Este Programa faz o calculo entre os números que estão em um array qualquer, encontrando o mair número entre eles
+  Neste programa verifica a quantidade de nomes sendo no máximo cinco pessoas na fila, sendo a cada pessoa que sai entra outra ate completar os cinco número retirando as pessoas da fila de espera.
 </p>
 
 ---
